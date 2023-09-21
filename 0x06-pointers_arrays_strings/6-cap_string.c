@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 #include <stdio.h>
 
 /**
@@ -27,11 +27,11 @@ int isLower(char c)
 int isDelimiter(char c)
 {
 	int i;
-	char delimiter = " \t\n,.!?\"()()";
+	char delimiter[] = " \t\n,.!?\"()()";
 
 	for (i = 0; i < 12; i++)
-		if (c == delimiter[i];
-				return (1);
+		if (c == delimiter[i])
+			return (1);
 	return (0);
 }
 
