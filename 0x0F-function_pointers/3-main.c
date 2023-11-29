@@ -4,7 +4,6 @@
  * main- check the code for the School students
  * @argc: the number of args
  * @argv: argument vector
- *
  * Return: Always 0.
  */
 
